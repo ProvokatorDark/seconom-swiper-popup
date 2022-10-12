@@ -142,3 +142,19 @@
   display: none;
 }
 
+.popup-window i {
+  display: none;
+  position: fixed;
+  top: 55px;
+  right: 12px;
+  font-size: 20px;
+  color: #ffffff;
+  cursor: pointer;
+  z-index: 102;
+}
+.popup-window i.active{
+  display: inline-block;
+}
+
+
+
