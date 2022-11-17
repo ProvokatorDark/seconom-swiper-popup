@@ -96,6 +96,8 @@
 .recomended-bl {
   width: 98%;
 }
+
+
 @media (max-width: 1024px) {
   .swiper-block {
     flex-direction: column;
@@ -128,5 +130,13 @@
   .swiper-button-next, .swiper-button-prev {
     display: none;
   }
+  .pop-up-product-info .thumbsSwiper{
+    display: none !important;
+  }
 }
+
+//.pop-up-product-info .swiper.mainSwiper, .pop-up-product-info .swiper.thumbsSwiper {
+//  display: block;
+//}
+
 
